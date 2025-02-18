@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <div id="container">
+        <div id="main-left">
+            <div class="title">
+                <img class="logo" src="./img/odin-logo.png" alt="odin-logo">
+                <p>ODIN</p>
+            </div>
+        </div>
+        <div id="main-right">
+            <p id="this">This is not a real online service! What you need to fulfill your deepest dreams lies ahead. Sign up now and begin your own Viking journey.</p>
+            
+            <form action="/submit-registration" method="POST">
+                <p style="font-family: 'Viking';">Let's do this!</p>
+                <div class="form-group">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" placeholder="Your name...">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" placeholder="Your surname...">
+                </div>
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" placeholder="example@mail.com">
+                </div>
+                <div class="form-group">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" placeholder="example@mail.com">
+                </div>
+                <div class="form-group">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm your password">
+                </div>
+                <input type="submit" value="register">
+                <p id="login">Allready one of us? <a href="">Log in</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
